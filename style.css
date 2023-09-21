@@ -1,0 +1,268 @@
+body{
+    margin: 0%;
+    font-family: 'Nanum Gothic', sans-serif;
+    padding: 40px;
+}
+
+a {
+    text-decoration: none ;
+}
+
+.nav{ 
+    background-color: #378c3f;
+    display:flex;
+    justify-content: space-around;
+    position: fixed;
+    overflow: hidden;
+    top: 0;
+    width: 100%;
+    font-size: 1rem;
+    left: 0%;
+
+}
+
+.nav a{
+    float: left;
+}
+
+.nav a:hover{
+    background-color: #8bef94;
+}
+
+.nav .nav_items a{
+    float:right;
+}
+
+.nav_items{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.nav a  , .nav_items a{
+    padding: 10px;
+    color: white;
+}
+
+.logo{
+    border-radius: 50%;
+    height: 200px;
+    width: 200px;
+    box-shadow: 0 5px 10px 10px #CEE6F3;    
+}
+
+.head {
+    font-size: 1.5rem;
+    font-weight: bolder;
+    -webkit-box-shadow: 0 10px 6px -6px #777;
+    -moz-box-shadow: 0 10px 6px -6px #777;
+    box-shadow: 0 10px 6px -6px #777;
+    padding: 20px;
+    
+}
+
+.click{
+    font-size: 16px;
+    box-sizing: border-box;
+    background-color: #378c3f;
+    border: 1px solid #378c3f;
+    color: #fff;
+    font-size: 15px;
+    padding: 10px;
+    cursor: pointer;
+    transition: 0.3s;
+    margin-right: 20px;
+}
+
+.click:hover{
+    transition : 1000ms;
+    padding: 10px 50px;
+    transform : translateY(-0px);
+    background-color: #fff;
+    color: #0066cc;
+    border: solid 2px #0066cc;
+}
+
+
+@media screen and (max-width:400px) {
+    .logo{
+        margin-top: 200px;
+    }
+}
+
+table{
+    text-align: left;
+}
+
+#about_me{
+    display :flex;
+    align-items: center;
+    justify-content: center;
+    gap: 5rem;
+    -webkit-box-shadow: 0 10px 6px -6px #777;
+    -moz-box-shadow: 0 10px 6px -6px #777;
+    box-shadow: 0 10px 6px -6px #777;
+    padding: 20px;
+
+}
+
+#about_me .description{
+    width: 25%;
+}
+
+.logo:hover{
+        transform: scale(1.2);
+}
+
+
+@media screen and (max-width:620px) {
+    .logo{
+        margin-top: 100px;
+    }
+    .nav{
+        float: none;
+    }
+    #about_me{
+        display: inline;
+    }
+    #about_me .description{
+        width: 100%;
+    }    
+}
+
+#education{
+    font-family: 'Quicksand', sans-serif;
+    text-align: center;
+}
+
+#education .undergrad{
+    margin: 16px;
+    padding: 3px;
+    font-size: 1.2rem;
+    
+}
+
+#education h3{
+    margin:20px;
+}
+
+#education .undergrad:hover{
+    transform: scale(1.1);
+}
+
+@media screen and (max-width:985px){
+    #eduaction{
+        margin-left:0%;
+    }
+}
+
+#skills , .form , #contact{
+    font-family: 'Quicksand', sans-serif;
+     
+}
+
+#skills{
+    -webkit-box-shadow: 0 10px 6px -6px #777;
+    -moz-box-shadow: 0 10px 6px -6px #777;
+    box-shadow: 0 10px 6px -6px #777;
+}
+
+.skill_table h1{
+    margin:20px;
+}
+
+.skill_table .skillname{
+    margin: 16px;
+    border-left: 2px solid #060047;
+    padding: 10px;
+    font-size: 1.2rem;
+}
+
+ table , tr , th ,  td {
+   border: 1px solid black;
+   border-collapse: collapse;
+   padding: 5px;
+}
+
+.lang h1{
+    margin:20px;
+}
+
+.lang ul li{
+    margin:20px;
+}
+
+.lang ul{
+    padding-left:0px;
+}
+
+.lang ul{
+    margin: 16px;
+    border-left: 2px solid #460C68;
+    padding: 10px;
+    font-size: 1.2rem;
+}
+
+#skills{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+
+.form h1{
+    margin:20px;
+}
+
+.form form{
+    padding: 10px;
+
+}
+
+.form form input{
+    padding: 20px;
+    margin: 5px;
+    border-radius: box1;
+    width:10rem;
+    font-size: 1em;
+    padding: 6px 23px 9px;
+    border-radius: 70em;
+    margin: 8px 6px 8px 0;
+}
+
+.fa , .address h3{
+    display: inline;
+}
+
+#contact{
+    display:flex;
+   align-items: center;
+   justify-content: center;
+}
+
+.form , .address{
+    width: 25%;
+}
+
+@media screen and (max-width:1050px) {
+    .form , .address{
+        width: 100%;
+    }
+}
+
+@media screen and (max-width:460px) {
+    .form , .address{
+        width: 100%;
+    }
+    #contact{
+        display: inline;
+    }
+}
+
+#footer{
+    padding:10px;
+    font-size: 1.2rem;
+    text-align: center;    
+}
+
+
+
